@@ -8,7 +8,7 @@ resource  "aws_instance" "demo_Servers" {
 
   tags = {
     Name = "demo_Servers"
-    Type = "demo_Master"
+    Type = "kubernetes_Master"
   }
 
 }
